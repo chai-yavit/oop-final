@@ -56,7 +56,7 @@ create table gallery(
 
 
 create table tags(
-	tagName varchar (64) not null,
+	tagName varchar (128) not null,
     tagType int not null,
     ownerID int not null
 );
